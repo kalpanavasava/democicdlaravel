@@ -84,7 +84,6 @@ jobs:
         php artisan view:cache
 
     # Step 10: Upload production-ready public files (Optional)
-    # Only needed if you're generating static assets or any other public files.
     - name: Check public directory contents
       run: ls -al ./public
 
